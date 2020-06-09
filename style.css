@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(228, 227, 227, 0.226);
+}
+
+ol {
+    display: inline-block;
+}
+
+#outcome {
+    color: rgb(201, 48, 48);
+    font-size: 30px;
+}

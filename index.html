@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>My Simple Lottery Game</h2>
+
+    <div id="outcome">
+    </div>
+
+    <p>Please choose your three random numbers between 1 and 40: </p>
+
+    <div id="input">
+        <label>1.Number:</label>
+        <select id="first-number"></select>
+        <label>2.Number:</label>
+        <select id="second-number"></select>
+        <label>3.Number:</label>
+        <select id="third-number"></select>
+
+        <button id="submit" onClick="lotteryGame()"> PLAY </button>
+    </div>
+
+    <div id="lottery-numbers">
+        <p> Let's play!
+            <p><b>JACKPOT</b><br>If all the numbers match and are in correct order</p>
+            <b>First prize</b><br>If all the numbers are matched
+            <br><b>Second prizey</b><br>If two of the tree numbers are matched
+            <br><b>Third prize</b><br>If one of the three numbers are matched
+        </p>
+    </div>
+
+
+
+
+    <script src="game.js"></script>
+</body>
+
+</html>
