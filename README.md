@@ -13,6 +13,7 @@ The available files:
 * game.js: provides the game functionalities
 * style.css: style features
 
-To test the application simply clone or download the repository and open the index.html file in any browser.
+To test the application locally simply clone or download the repository and open the index.html file in any browser.
+Or check it out here: https://amyhu-git.github.io/lottery/
 
 Enjoy!
